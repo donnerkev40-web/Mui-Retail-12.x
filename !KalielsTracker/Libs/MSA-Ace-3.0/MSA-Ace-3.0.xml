@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+	<Script file="MSA-AceAddon-3.0.lua"/>
+	<Script file="MSA-AceGUI-3.0.lua"/>
+	<Script file="MSA-AceConfigDialog-3.0.lua"/>
+	<Script file="MSA-AceGUIContainer-Frame.lua"/>
+	<Script file="MSA-AceGUIWidget-Slider.lua"/>
+	<Script file="MSA-AceGUI-3.0-SoundWidget.lua"/>
+	<Script file="MSA-AceConfigPatcher-1.0.lua"/>
+</Ui>

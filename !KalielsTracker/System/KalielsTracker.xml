@@ -1,0 +1,65 @@
+<!--
+	Kaliel's Tracker
+	Copyright (c) 2012-2026, Marouan Sabbagh <mar.sabbagh@gmail.com>
+	All Rights Reserved.
+
+	This file is part of addon Kaliel's Tracker.
+-->
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+    <Frame name="KT2_ObjectiveTrackerBlockTemplate" mixin="KT_ObjectiveTrackerBlockMixin" hidden="true" virtual="true">
+        <Layers>
+            <Layer level="ARTWORK">
+                <FontString parentKey="HeaderText" inherits="KT_ObjectiveTrackerLineFont">
+                    <Anchors>
+                        <Anchor point="TOPLEFT"/>
+                        <Anchor point="RIGHT"/>
+                    </Anchors>
+                </FontString>
+            </Layer>
+        </Layers>
+        <Frames>
+            <Frame parentKey="HeaderButton">
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeKey="$parent.HeaderText"/>
+                    <Anchor point="BOTTOMRIGHT" relativeKey="$parent.HeaderText"/>
+                </Anchors>
+            </Frame>
+        </Frames>
+        <Scripts>
+            <OnEnter method="OnEnter"/>
+            <OnLeave method="OnLeave"/>
+            <OnMouseUp method="OnMouseUp"/>
+        </Scripts>
+    </Frame>
+
+    <Frame name="KT_ObjectiveTrackerBlockIconTemplate" hidden="true" virtual="true">
+        <Size x="31" y="31"/>
+        <Layers>
+            <Layer level="ARTWORK">
+                <Texture parentKey="Icon" setAllPoints="true"/>
+            </Layer>
+        </Layers>
+    </Frame>
+
+    <Button name="KT2_ObjectiveTrackerPOIButtonTemplate" inherits="KT_ObjectiveTrackerPOIButtonTemplate" virtual="true">
+        <KeyValues>
+            <KeyValue key="hideSubTypeIcon" value="true" type="boolean"/>
+        </KeyValues>
+        <Frames>
+            <Frame parentKey="Display" inherits="KT_POIButtonDisplayLayerTemplate">
+                <Layers>
+                    <Layer level="OVERLAY">
+                        <Texture parentKey="KTtomtom" file="Interface\AddOns\!KalielsTracker\Media\KT-TomTomTag" hidden="true">
+                            <Size x="32" y="32"/>
+                            <Anchors>
+                                <Anchor point="CENTER"/>
+                            </Anchors>
+                        </Texture>
+                    </Layer>
+                </Layers>
+            </Frame>
+        </Frames>
+    </Button>
+</Ui>

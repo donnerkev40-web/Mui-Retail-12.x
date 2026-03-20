@@ -1,0 +1,20 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+    <Script file="Constants.lua"/>
+    <Script file="Utils.lua"/>
+    <Script file="Media.lua"/>
+    <Script file="Config.lua"/>
+    <Script file="Storage.lua"/>
+    <Script file="Addon.lua"/>
+    <Script file="Telemetry.lua"/>
+    <Script file="Quests.lua"/>
+    <Script file="Achievements.lua"/>
+    <Script file="OpenService.lua"/>
+    <Script file="Menu.lua"/>
+    <Script file="StaticPopup.lua"/>
+    <Script file="Visibility.lua"/>
+    <Script file="AddonCompartment.lua"/>
+    <Script file="KalielsTracker.lua"/>
+    <Include file="KalielsTracker.xml"/>
+    <Script file="API.lua"/>
+</Ui>
