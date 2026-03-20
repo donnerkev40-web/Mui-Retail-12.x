@@ -59,10 +59,13 @@ Dieses Repository soll einen sauberen, reproduzierbaren MUI-Stand für Retail 12
 
 ## Installation
 
-1. Repository herunterladen oder klonen.
-2. Die enthaltenen AddOn-Ordner in den WoW-Retail-Ordner `Interface/AddOns` legen.
-3. WoW starten oder `/reload` ausführen.
-4. Falls nötig, das MUI-Setup mit `/mui i` erneut ausführen.
+1. WoW vollständig schließen.
+2. Repository herunterladen oder klonen.
+3. Die enthaltenen AddOn-Ordner in den WoW-Retail-Ordner `Interface/AddOns` legen.
+4. Im AddOn-Menü von WoW prüfen, ob die benötigten Begleit-AddOns aktiviert sind.
+5. Mit dem Charakter einloggen.
+6. Das MUI-Setup mit `/mui i` ausführen.
+7. Installation abschließen, UI prüfen und erst danach bei Bedarf ein `/reload` verwenden.
 
 ## Hinweis zur Struktur
 
