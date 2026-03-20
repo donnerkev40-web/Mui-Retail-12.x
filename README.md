@@ -1,6 +1,6 @@
 # Mui-Retail-12.x
 
-Dieses Repository enthält den aktuellen Retail-Stand von MayronUI fuer WoW 12.x inklusive der AddOns, die fuer das MUI-Setup und die integrierten Profile direkt benoetigt werden.
+Dieses Repository enthält den aktuellen Retail-Stand von MayronUI für WoW 12.x inklusive der AddOns, die für das MUI-Setup und die integrierten Profile direkt benötigt werden.
 
 ## Funktionen
 
@@ -11,23 +11,23 @@ Dieses Repository enthält den aktuellen Retail-Stand von MayronUI fuer WoW 12.x
 - `Cast Bars`
 - `Chat`
 - `Minimap`
-- `Timer Bars` in laufender Modernisierung fuer Retail 12.x / Midnight
+- `Timer Bars` in laufender Modernisierung für Retail 12.x / Midnight
 
 ### Bereits modernisierte Bereiche
-- ueberarbeitete Konfiguration mit klarerer Menuestruktur
+- überarbeitete Konfiguration mit klarerer Menüstruktur
 - stabilisierter Installer und Profil-Reset
-- moderne Font-Verwaltung fuer den aktiven MUI-Bestand
+- moderne Font-Verwaltung für den aktiven MUI-Bestand
 - bereinigte Minimap-Optionen
 - modernisierte Chat-Konfiguration
 - fest integrierte Castbar-/UnitFrame-/ActionBar-Pfade
 
 ### Externe Integrationen
-- `Bartender4` fuer Aktionsleisten und Profilimporte
-- `Masque` fuer Button-Skins
-- `ShadowedUnitFrames` fuer Unit-Frame-Profile und MUI-Anbindung
-- `Grid2` fuer Heiler-Layouts und Profilimporte
+- `Bartender4` für Aktionsleisten und Profilimporte
+- `Masque` für Button-Skins
+- `ShadowedUnitFrames` für Unit-Frame-Profile und MUI-Anbindung
+- `Grid2` für Heiler-Layouts und Profilimporte
 - `!KalielsTracker` als eingebundene Begleitkomponente
-- `Leatrix_Plus` fuer verknuepfte Schnellzugriffe im UI
+- `Leatrix_Plus` für verknüpfte Schnellzugriffe im UI
 
 ## Enthaltene AddOns
 
@@ -36,7 +36,7 @@ Dieses Repository enthält den aktuellen Retail-Stand von MayronUI fuer WoW 12.x
 - `MUI_Config`
 - `MUI_Setup`
 
-### Zugehoerige Begleit-AddOns
+### Zugehörige Begleit-AddOns
 - `Bartender4`
 - `Grid2`
 - `Grid2Options`
@@ -47,51 +47,36 @@ Dieses Repository enthält den aktuellen Retail-Stand von MayronUI fuer WoW 12.x
 - `!KalielsTracker`
 - `Leatrix_Plus`
 
-Diese AddOns sind im Repository, weil MayronUI dafuer Presets, Integrationen, Schnellzugriffe oder Setup-Importe besitzt.
-
-## Bewusst nicht enthalten
-
-Die folgenden AddOns gehoeren nicht zum offiziellen MUI-Stand dieses Repositories und werden bewusst nicht mit versioniert:
-
-- `MoneyLooter`
-- `ZygorGuidesViewer`
-- `TradeSkillMaster`
-- `TradeSkillMaster_AppHelper`
-- `BetterBuffBars`
-- `BugSack`
-- `!BugGrabber`
-- zusaetzliche `Masque`-Skinpacks
-- persoenliche Ordner wie `WTF`, Cache-Dateien oder sonstige lokale Daten
+Diese AddOns sind im Repository, weil MayronUI dafür Presets, Integrationen, Schnellzugriffe oder Setup-Importe besitzt.
 
 ## Ziel dieses Repositories
 
-Dieses Repository soll einen sauberen, reproduzierbaren MUI-Stand fuer Retail 12.x abbilden:
+Dieses Repository soll einen sauberen, reproduzierbaren MUI-Stand für Retail 12.x abbilden:
 
 - mit modernisiertem MUI-Kern
-- mit den dazugehoerigen Pflicht- und Begleit-AddOns
-- ohne unnoetigen Fremd-Bestand
-- ohne persoenliche WoW-Daten
+- mit den dazugehörigen Pflicht- und Begleit-AddOns
+- mit klar definiertem Repository-Umfang
 
 ## Installation
 
 1. Repository herunterladen oder klonen.
 2. Die enthaltenen AddOn-Ordner in den WoW-Retail-Ordner `Interface/AddOns` legen.
-3. WoW starten oder `/reload` ausfuehren.
-4. Falls noetig, das MUI-Setup mit `/mui i` erneut ausfuehren.
+3. WoW starten oder `/reload` ausführen.
+4. Falls nötig, das MUI-Setup mit `/mui i` erneut ausführen.
 
 ## Hinweis zur Struktur
 
-Auch wenn im lokalen `AddOns`-Ordner weitere AddOns vorhanden sein koennen, werden in Git nur die oben genannten MUI-relevanten Ordner gepflegt.
+Auch wenn im lokalen `AddOns`-Ordner weitere AddOns vorhanden sein können, werden in Git nur die oben genannten MUI-relevanten Ordner gepflegt.
 
-## Aenderungen und Verlauf
+## Änderungen und Verlauf
 
-Wichtige Aenderungen werden in der Datei [`CHANGELOG.md`](/D:/World%20of%20Warcraft/_retail_/Interface/AddOns/CHANGELOG.md) gepflegt.
+Wichtige Änderungen werden in der Datei [`CHANGELOG.md`](/D:/World%20of%20Warcraft/_retail_/Interface/AddOns/CHANGELOG.md) gepflegt.
 
 Dort stehen:
-- groessere Modernisierungen
-- Struktur- und Konfigurationsaenderungen
-- Aktivierungen neuer oder ueberarbeiteter Module
-- wichtige Stabilitaets- und Fehlerkorrekturen
+- größere Modernisierungen
+- Struktur- und Konfigurationsänderungen
+- Aktivierungen neuer oder überarbeiteter Module
+- wichtige Stabilitäts- und Fehlerkorrekturen
 
 ## Status
 
