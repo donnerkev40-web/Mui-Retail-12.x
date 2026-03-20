@@ -1,0 +1,8 @@
+*
+!.gitignore
+!MUI_Core/
+!MUI_Core/**
+!MUI_Config/
+!MUI_Config/**
+!MUI_Setup/
+!MUI_Setup/**

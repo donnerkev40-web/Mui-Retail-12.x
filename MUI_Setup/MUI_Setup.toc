@@ -1,0 +1,20 @@
+## Interface: 120001
+## Title: |cff00ccffMayronUI|r Setup
+## IconTexture: Interface/Addons/MUI_Core/Assets/Logo
+## Dependencies: MUI_Core
+## LoadOnDemand: 1
+## Version: 12.0.1 RETAIL
+## Notes: A minimalistic, graphical UI replacement package.|n|nThis is required to install MayronUI and inject AddOn default settings.|n|nVisit |cff00ccffhttps://mayronui.com|r for links to the|nofficial |cff8aa4ffDiscord|r server, my |cffff666ePatreon|r and more!|n|n|cffffd100Version: 12.0.1 RETAIL|r
+
+LayoutDefaults.lua
+ProfileTemplates.lua
+MUI_Setup.lua
+ReportFrame.lua
+
+## imports:
+imports/Bagnon.lua
+imports/Bartender4.lua
+imports/Bartender4_Dragonflight.lua
+imports/Grid2.lua
+imports/Masque.lua
+imports/ShadowedUnitFrames.lua
